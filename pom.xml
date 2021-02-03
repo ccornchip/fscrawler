@@ -727,13 +727,13 @@
                 <groupId>com.github.jai-imageio</groupId>
                 <artifactId>jai-imageio-core</artifactId>
                 <version>${tiff.version}</version>
-                <optional>true</optional>
+                <optional>false</optional>
             </dependency>
             <dependency>
                 <groupId>com.github.jai-imageio</groupId>
                 <artifactId>jai-imageio-jpeg2000</artifactId>
                 <version>${jpeg.version}</version>
-                <optional>true</optional>
+                <optional>false</optional>
             </dependency>
 
             <!-- For Language detection -->
